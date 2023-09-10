@@ -7,16 +7,11 @@ def print_aanbieding():
         "chocolade" : 5
     }
     aanbieding = 0.8 * prijzen["aardbei"]
-    
-    reclame = (f"vandaag in de aanbieding: vanille-ijs, 1 liter - slechts € {aanbieding}.")
-    
-    reclame_tekst2 = reclame[:63]
-    
-    reclame_tekst3 = reclame_tekst2.upper()
-    
-    reclame_tekst4 = reclame_tekst3.split()
-    
-    el = reclame_tekst4
+        reclame = (f"vandaag in de aanbieding: vanille-ijs, 1 liter - slechts € {aanbieding}.")
+        reclame_tekst2 = reclame[:63]
+        reclame_tekst3 = reclame_tekst2.upper()
+        reclame_tekst4 = reclame_tekst3.split()
+        el = reclame_tekst4
     
     for el in reclame_tekst4:
         if len(el) >= 5:
